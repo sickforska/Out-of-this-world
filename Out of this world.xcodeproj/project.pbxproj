@@ -33,6 +33,7 @@
 		1EF033B018FB670100F01A20 /* Uranus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EF033A618FB670100F01A20 /* Uranus.jpg */; };
 		1EF033B118FB670100F01A20 /* Venus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EF033A718FB670100F01A20 /* Venus.jpg */; };
 		1EF033B418FB672800F01A20 /* OWSpaceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF033B318FB672800F01A20 /* OWSpaceObject.m */; };
+		1EF033FF18FB726C00F01A20 /* OWSpaceImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF033FE18FB726C00F01A20 /* OWSpaceImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,8 @@
 		1EF033A718FB670100F01A20 /* Venus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Venus.jpg; sourceTree = "<group>"; };
 		1EF033B218FB672800F01A20 /* OWSpaceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSpaceObject.h; sourceTree = "<group>"; };
 		1EF033B318FB672800F01A20 /* OWSpaceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSpaceObject.m; sourceTree = "<group>"; usesTabs = 1; };
+		1EF033FD18FB726C00F01A20 /* OWSpaceImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSpaceImageViewController.h; sourceTree = "<group>"; };
+		1EF033FE18FB726C00F01A20 /* OWSpaceImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSpaceImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +144,8 @@
 				1EC63C4618F9076000CB07A7 /* Main.storyboard */,
 				1EC63C6C18F9092300CB07A7 /* OWOuterSpaceTableViewController.h */,
 				1EC63C6D18F9092300CB07A7 /* OWOuterSpaceTableViewController.m */,
-				1EF033B218FB672800F01A20 /* OWSpaceObject.h */,
-				1EF033B318FB672800F01A20 /* OWSpaceObject.m */,
+				1EF033FD18FB726C00F01A20 /* OWSpaceImageViewController.h */,
+				1EF033FE18FB726C00F01A20 /* OWSpaceImageViewController.m */,
 				1EC63C4318F9076000CB07A7 /* OWAppDelegate.h */,
 				1EC63C4418F9076000CB07A7 /* OWAppDelegate.m */,
 				1EC63C4C18F9076000CB07A7 /* Images.xcassets */,
@@ -154,6 +157,8 @@
 		1EC63C3B18F9076000CB07A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1EF033B218FB672800F01A20 /* OWSpaceObject.h */,
+				1EF033B318FB672800F01A20 /* OWSpaceObject.m */,
 				1EF0339E18FB670100F01A20 /* Earth.jpg */,
 				1EF0339F18FB670100F01A20 /* EinsteinRing.jpg */,
 				1EF033A018FB670100F01A20 /* Jupiter.jpg */,
@@ -305,6 +310,7 @@
 				1EC63C4518F9076000CB07A7 /* OWAppDelegate.m in Sources */,
 				1EC63C4118F9076000CB07A7 /* main.m in Sources */,
 				1EF0339D18FB64C800F01A20 /* AstronomicalData.m in Sources */,
+				1EF033FF18FB726C00F01A20 /* OWSpaceImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
